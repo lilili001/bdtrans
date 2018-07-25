@@ -1,0 +1,30 @@
+{
+    "name": "miya/trans",
+    "keywords": ["slug", "translate"],
+    "description": "Translate chinese into english and used for slug ",
+    "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lilili001",
+            "email": "2861166132@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Miya\\Trans\\":"src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Miya\\Trans\\BdTransProvider"
+            ],
+            "aliases": {
+                "BdTrans": "\\Miya\\Trans\\Facades\\TransFacade"
+            }
+        }
+    }
+}
