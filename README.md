@@ -4,7 +4,8 @@
 
 ## 使用前必看
 
-使用百度翻译api,http://api.fanyi.baidu.com/api/trans/product/index,使用之前需开通百度通用翻译api权限,并获取appkey和secret.
+使用百度翻译api,http://api.fanyi.baidu.com/api/trans/product/index
+使用之前需开通百度通用翻译api权限,并获取appkey和secret.
 > 每月翻译字符数低于200万，享免费服务,如果更多翻译的需求,请联系百度翻译官方
 
 ## 安装
