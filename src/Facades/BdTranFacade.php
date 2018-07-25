@@ -12,5 +12,5 @@ use Illuminate\Support\Facades\Facade;
 
 class BdTranFacade extends Facade
 {
-    protected static function getFacadeAccessor() { return 'bdtrans'; }
+    protected static function getFacadeAccessor() { return 'BdTrans'; }
 }
