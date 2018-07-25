@@ -1,0 +1,29 @@
+{
+    "name": "miyayeh/trans",
+    "keywords": ["slug", "translate"],
+    "description": "Translate chinese into english and used for slug ",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lilili001",
+            "email": "2861166132@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "Miya\\Trans\\":"src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\MiyaYeh\\Trans\\BdTransProvider"
+            ],
+            "aliases": {
+                "BdTrans": "\\MiyaYeh\\Trans\\Facades\\TransFacade"
+            }
+        }
+    }
+}
