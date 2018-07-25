@@ -8,7 +8,6 @@
 
 namespace MiyaYeh\Trans;
 
-
 class BdTrans
 {
     public function translate()

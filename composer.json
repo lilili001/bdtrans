@@ -23,7 +23,7 @@
             ],
             "aliases": {
                 "BdTrans": "\\MiyaYeh\\Trans\\Facades\\TransFacade"
-            }
+             }
         }
     }
 }
