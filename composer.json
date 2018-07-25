@@ -1,5 +1,5 @@
 {
-    "name": "miya/trans",
+    "name": "miyayeh/trans",
     "keywords": ["slug", "translate"],
     "description": "Translate chinese into english and used for slug ",
     "type": "composer-plugin",
