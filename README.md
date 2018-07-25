@@ -43,8 +43,7 @@ composer require miyayeh/trans
 'baidutrans' => [
         'appKey' => env('BAIDU_APPID'),
         'appSecret' => env('BAIDU_APP_SECRET')
-    ]
- */   
+    ]   
 ```
 当然,你还需要在 `.env` 文件中添加:
 
