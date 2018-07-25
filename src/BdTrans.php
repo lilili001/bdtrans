@@ -4,6 +4,7 @@ namespace MiyaYeh\Trans;
 
 class BdTrans
 {
+
     protected $config ;
     protected $url = "http://api.fanyi.baidu.com/api/trans/vip/translate";
     public function __construct(array $config = [])
@@ -148,6 +149,5 @@ class BdTrans
         }
         return $args;
     }/*}}}*/
-
 
 }
