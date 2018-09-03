@@ -1,7 +1,7 @@
 <?php
 
 namespace MiyaYeh\Trans;
-
+define("CURL_TIMEOUT",   10);
 class BdTrans
 {
 
